@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ahmed Ibrahim — Data Analyst and Web Developer. Explore selected data analysis and web development projects.">
+  <meta name="theme-color" content="#f7faff">
+  <title>Ahmed Ibrahim | Data Analyst & Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Intro screen: shown for about 2.7 seconds on each fresh page load -->
+  <div class="intro-screen" id="introScreen" aria-label="Welcome to Ahmed Ibrahim's portfolio">
+    <div class="intro-orb orb-one"></div><div class="intro-orb orb-two"></div>
+    <div class="intro-content">
+      <div class="intro-avatar"><img src="Ahmad ibrahim.jpg" alt="Ahmed Ibrahim profile photo"></div>
+      <div class="intro-kicker"><span></span> PERSONAL PORTFOLIO</div>
+      <h1>Welcome to <span>Ahmed Ibrahim's</span><br>Portfolio</h1>
+      <p>Data Analyst <b>·</b> Web Developer <b>·</b> Mathematics Graduate</p>
+      <div class="intro-loader"><span></span></div>
+      <small>Preparing something meaningful...</small>
+    </div>
+  </div>
+
+  <div class="site-shell" id="siteShell">
+    <header class="header">
+      <a class="brand" href="#home" aria-label="Ahmed Ibrahim home">
+        <span class="brand-mark">A<span>I</span></span>
+        <span class="brand-copy"><strong>Ahmed Ibrahim</strong><small>Data Analyst | Web Developer</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><i></i><i></i><i></i></button>
+      <nav class="nav" id="mainNav">
+        <a class="active" href="#home">Home</a>
+        <a href="#data-analysis">Data Analysis</a>
+        <a href="#web-design">Web Development</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="button button-primary header-cta" href="assets/Ahmed-Ibrahim-CV.pdf" download> <span>↓</span> Download CV</a>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-inner">
+          <div class="portrait-wrap"><img src="Ahmad ibrahim.jpg" alt="Add Ahmed Ibrahim's portrait here" class="portrait"></div>
+          <div class="hero-copy">
+            <p class="eyebrow">HELLO, I'M</p>
+            <h1>Ahmed <span>Ibrahim</span></h1>
+            <h2>Data Analyst <b>|</b> Web Developer <b>|</b> Mathematics Graduate</h2>
+            <p class="intro-text">I am a Mathematics graduate and technology enthusiast who enjoys turning data into useful insights and building clean, practical digital experiences. I work across data analysis and web development, combining analytical thinking with creativity to solve real-world problems.</p>
+            <div class="quick-facts">
+              <span>✦ BSc Mathematics</span><span>⌖ UMYU, Katsina</span><span>★ CGPA 4.26/5.00</span>
+            </div>
+          </div>
+          <aside class="connect-card">
+            <h3>Let's Connect</h3><p>Feel free to reach out or follow my work.</p>
+            <a href="https://wa.me/2349137362755" target="_blank" rel="noopener"><span class="social-icon whatsapp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 2 17.7L.5 23.5l6-1.6A11.8 11.8 0 0 0 20.5 3.5ZM12 21a9.7 9.7 0 0 1-4.9-1.3l-.4-.2-3.6 1 1-3.5-.2-.4A9.7 9.7 0 1 1 12 21Zm5.3-7.3c-.3-.2-1.8-.9-2.1-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8 8 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6s0-.4 0-.6-.7-1.7-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.2-1.2 2.8 1.2 3.2 1.4 3.4 2.4 3.7 5.8 5c.8.3 1.4.5 1.9.6.8.2 1.5.2 2 .1.6-.1 1.8-.7 2.1-1.4.3-.7.3-1.3.2-1.4s-.3-.2-.6-.4Z"/></svg></span><span><b>WhatsApp</b><small>Chat with me</small></span><i>→</i></a>
+            <a href="https://www.youtube.com/@codewithdone" target="_blank" rel="noopener"><span class="social-icon youtube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.6 3.6 12 3.6 12 3.6s-7.6 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.8.5 9.4.5 9.4.5s7.6 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z"/></svg></span><span><b>YouTube</b><small>Watch my tutorials</small></span><i>→</i></a>
+            <a href="https://www.linkedin.com/in/ahmed-ibrahim-6816273b9/" target="_blank" rel="noopener"><span class="social-icon linkedin"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 8.6a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM3.5 10h3.4v10.5H3.5V10Zm5.5 0h3.3v1.4h.1a3.6 3.6 0 0 1 3.2-1.7c3.4 0 4 2.2 4 5.1v5.7h-3.4v-5.1c0-1.2 0-2.8-1.7-2.8s-2 1.3-2 2.7v5.2H9V10Z"/></svg></span><span><b>LinkedIn</b><small>Connect with me</small></span><i>→</i></a>
+          </aside>
+        </div>
+      </section>
+
+      <section class="project-section data-section" id="data-analysis">
+        <div class="section-heading">
+          <div class="section-icon data-icon">▥</div>
+          <div><h2>Data <span>Analysis</span></h2><p>I turn raw data into meaningful insights using Excel, SQL, Power BI and Python.</p></div>
+          <span class="project-count">3 Projects</span>
+        </div>
+        <div class="selection-intro"><span class="selection-line"></span><p><strong>Selected Data Analysis Projects</strong><br><span>A collection of practical projects demonstrating data preparation, analysis and visual storytelling.</span></p></div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-visual"><img class="project-image" src="Data image.png" alt="Data"></div>
+            <div class="project-body"><h3>Sales Performance Analysis</h3><div class="tags"><span>Excel</span><span>Pivot Tables</span><span>Dashboard</span></div><p>Explored a sales dataset to identify performance trends, compare product categories and present key business indicators in an interactive dashboard.</p><a class="project-link" href="https://github.com/AHMEDIBRAHiM8160/Financial-Analysis-Project" target="_blank" rel="noopener">↗ View Project</a></div>
+          </article>
+          <article class="project-card">
+           <div class="project-visual"><img class="project-image " src="bike.png" alt="bike"></div>
+            <div class="project-body"><h3>Bike Sales Data Analysis</h3><div class="tags"><span>Excel</span><span>Pivot Table</span><span>Data Cleaning</span></div><p>Cleaned and prepared a dataset by addressing missing values, duplicate records, inconsistent formats and data quality issues.</p><a class="project-link" href="https://github.com/AHMEDIBRAHiM8160/Bike-Sales-Analysis-Dashboard" target="_blank" rel="noopener">↗ View Project</a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual"><img class="project-image " src="dashboard.png" alt="Dash"></div>
+            <div class="project-body"><h3>Financial Insights Dashboard</h3><div class="tags"><span>Power BI</span><span>DAX</span><span>Visualisation</span></div><p>Designed a business intelligence dashboard to communicate trends and performance through clear visuals, KPIs and interactive filters.</p><a class="project-link" href="https://github.com/AHMEDIBRAHiM8160/financial-analysis-power-bi-dashboard" target="_blank" rel="noopener">↗ View Project</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="project-section web-section" id="web-design">
+        <div class="section-heading">
+          <div class="section-icon web-icon">⌘</div>
+          <div><h2>Web <span>Development</span></h2><p>I build responsive, user-friendly websites for businesses, services and digital projects.</p></div>
+          <span class="project-count">3 Projects</span>
+        </div>
+        <div class="selection-intro"><span class="selection-line"></span><p><strong>Selected Web Development Projects</strong><br><span>A showcase of responsive websites and digital tools built for real-world needs.</span></p></div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-visual"><img class="project-image " src="msarki.png" alt="msarki"></div>
+            <div class="project-body"><h3>M-Royal Services Website</h3><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive</span></div><p>A business website for an embroidery and traditional clothing brand, designed to showcase services and make it easier for customers to connect.</p><a class="project-link" href="https://msarkiroyalservice.com/" target="_blank" rel="noopener">↗ View Live Website</a></div>
+          </article>
+          <article class="project-card">
+           <div class="project-visual"><img class="project-image " src="abgt.png" alt="abgt"></div>
+            <div class="project-body"><h3>AIBUKS Solutions Website</h3><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive</span></div><p>A company website concept for AIBUKS Global Technologies Solutions, presenting its services, portfolio and contact information.</p><a class="project-link" href="https://abgtsolutions.netlify.app/" target="_blank" rel="noopener">↗ View Live Website</a></div>
+          </article>
+          <article class="project-card">
+           <div class="project-visual"><img class="project-image " src="simulation.png" alt="simulation"></div>
+            <div class="project-body"><h3>Financial Networks Simulation Tool</h3><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Modelling</span></div><p>A front-end simulation tool developed from my final-year research on mathematical modelling and systemic risk in financial networks.</p><a class="project-link" href="https://ahmedibrahim8160.github.io/ABGT-Interbank-Contagion-Systemic-Risk-Simulator/" target="_blank" rel="noopener">↗ View Demo</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="about-strip" id="about"><div><span class="eyebrow">A LITTLE MORE ABOUT ME</span><h2>Curiosity, analysis and <span>building useful things.</span></h2><p>My background in Mathematics has shaped the way I approach problems: carefully, logically and with attention to detail. I enjoy learning, collaborating and applying technology to practical challenges.</p></div><a class="button button-outline" href="#contact">Let's talk ↗</a></section>
+      <section class="contact-details" id="contact">
+        <div class="contact-heading"><span class="eyebrow">GET IN TOUCH</span><h2>Contact <span>Me</span></h2><p>Have a project, job opportunity or collaboration in mind? I'd be happy to hear from you.</p></div>
+        <div class="contact-detail-grid">
+          <a class="contact-detail-card" href="tel:+2349137362755"><span class="contact-detail-icon phone-icon">☎</span><span><small>CALL / WHATSAPP</small><strong>+234 9137362755</strong><em>Ahmed Ibrahim</em></span><b>↗</b></a>
+          <a class="contact-detail-card" href="mailto:ahmedibrahim8160@gmail.com"><span class="contact-detail-icon email-icon">✉</span><span><small>EMAIL ADDRESS</small><strong>ahmedibrahim8160@gmail.com</strong><em></em></span><b>↗</b></a>
+          <a class="contact-detail-card" href="https://www.linkedin.com/in/ahmed-ibrahim-6816273b9/" target="_blank" rel="noopener"><span class="contact-detail-icon linkedin-icon">in</span><span><small>LINKEDIN</small><strong>Connect professionally</strong><em>https://www.linkedin.com/in/ahmed-ibrahim-6816273b9/</em></span><b>↗</b></a>
+        </div>
+      </section>
+      <section class="contact-strip" id="contact-cta"><div><span class="eyebrow">HAVE A PROJECT OR OPPORTUNITY?</span><h2>Let's create something <span>meaningful.</span></h2><p>I'm open to relevant opportunities, collaborations and conversations.</p></div><a class="button button-primary" href="mailto:your-email@example.com">Contact Me ↗</a></section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-main"><a class="brand" href="#home"><span class="brand-mark">A<span>I</span></span><span class="brand-copy"><strong>Ahmed Ibrahim</strong><small>Data Analyst | Web Developer</small></span></a><div><b>Explore</b><a href="#home">Home</a><a href="#data-analysis">Data Analysis</a><a href="#web-design">Web Development</a><a href="#about">About</a></div><div><b>Follow Me</b><div class="footer-social">
+        <a href="https://wa.me/2349137362755" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 2 17.7L.5 23.5l6-1.6A11.8 11.8 0 0 0 20.5 3.5ZM12 21a9.7 9.7 0 0 1-4.9-1.3l-.4-.2-3.6 1 1-3.5-.2-.4A9.7 9.7 0 1 1 12 21Zm5.3-7.3c-.3-.2-1.8-.9-2.1-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8 8 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6s0-.4 0-.6-.7-1.7-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.2-1.2 2.8 1.2 3.2 1.4 3.4 2.4 3.7 5.8 5c.8.3 1.4.5 1.9.6.8.2 1.5.2 2 .1.6-.1 1.8-.7 2.1-1.4.3-.7.3-1.3.2-1.4s-.3-.2-.6-.4Z"/></svg></a>
+        <a href="https://www.youtube.com/@codewithdone" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.6 3.6 12 3.6 12 3.6s-7.6 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.8.5 9.4.5 9.4.5s7.6 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z"/></svg></a>
+        <a href="https://www.linkedin.com/in/ahmed-ibrahim-6816273b9/" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 8.6a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM3.5 10h3.4v10.5H3.5V10Zm5.5 0h3.3v1.4h.1a3.6 3.6 0 0 1 3.2-1.7c3.4 0 4 2.2 4 5.1v5.7h-3.4v-5.1c0-1.2 0-2.8-1.7-2.8s-2 1.3-2 2.7v5.2H9V10Z"/></svg></a>
+      </div></div><blockquote>“Big dreams, consistent effort, real results.”</blockquote></div>
+      <div class="footer-bottom"><span>© <span id="year"></span> Ahmed Ibrahim. All rights reserved.</span><span>Built with purpose · Turning ideas into solutions.</span></div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
